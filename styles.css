@@ -1,3 +1,8 @@
+/* FONTS
+font-family: 'Playfair Display', serif;
+
+*/
+
 @keyframes fadeinall {
   0% {
     opacity: 1;
@@ -16,4 +21,15 @@
     transform: translateY(-100%);
     z-index: -1;
   }
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+svg {
+  width: 3rem;
+  height: auto;
 }
