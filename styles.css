@@ -1,6 +1,10 @@
 /* FONTS
 font-family: 'Playfair Display', serif;
-
+*/
+/* COLORS 
+#3B2E48 black from shirt
+#CA2E32 red from shirt
+#c8a899 gold from shirt
 */
 
 @keyframes fadeinall {
@@ -27,9 +31,40 @@ body {
   background-color: white;
   color: black;
   font-family: "Playfair Display", serif;
+  
+}
+
+nav {
+  
 }
 
 svg {
   width: 3rem;
   height: auto;
+}
+
+.ross {
+  color: #c8a899;
+}
+
+.ross-jumbo-img {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  position: relative;
+  left: 29%;
+  bottom: 4rem;
+}
+
+.star {
+  position: relative;
+  bottom: 110px;
+  left: 55%;
+}
+
+.welcome-text {
+  display: inline-block;
+  position: relative;
+  left: 21%;
 }
