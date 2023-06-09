@@ -31,11 +31,9 @@ body {
   background-color: white;
   color: black;
   font-family: "Playfair Display", serif;
-  
 }
 
 nav {
-  
 }
 
 svg {
@@ -67,4 +65,19 @@ svg {
   display: inline-block;
   position: relative;
   left: 21%;
+  top: 100px;
+}
+
+.welcome-top {
+  display: inline-block;
+  position: relative;
+  bottom: 2rem;
+}
+
+.drives {
+  padding-top: 3rem;
+}
+
+.drives-header {
+  font-size: 1rem "";
 }
