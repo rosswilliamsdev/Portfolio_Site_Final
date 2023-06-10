@@ -33,9 +33,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-nav {
-}
-
 svg {
   width: 3rem;
   height: auto;
@@ -47,12 +44,11 @@ svg {
 
 .ross-jumbo-img {
   display: inline-block;
-  width: 30%;
+  width: 90%;
   height: auto;
   border-radius: 5px;
   position: relative;
-  left: 29%;
-  bottom: 4rem;
+  right: 3rem;
 }
 
 .star {
@@ -61,11 +57,13 @@ svg {
   left: 55%;
 }
 
+.im-ross-williams {
+  display: inline-block;
+  font-size: 0.5rem;
+}
+
 .welcome-text {
   display: inline-block;
-  position: relative;
-  left: 21%;
-  top: 100px;
 }
 
 .welcome-top {
@@ -74,10 +72,31 @@ svg {
   bottom: 2rem;
 }
 
-.drives {
-  padding-top: 3rem;
+.drives-header {
+  animation: 1s ease-in forwards fade-in;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
-.drives-header {
-  font-size: 1rem "";
+.drives {
+  /* display: inline-block; */
+  position: absolute;
+  left: 12rem;
+  font-size: 0.8rem;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.excellence,
+.creativity,
+.challenges {
+  display: none;
+  animation: 2s ease-in-out forwards fade-in;
 }
