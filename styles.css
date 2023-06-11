@@ -26,6 +26,23 @@ font-family: 'Playfair Display', serif;
     z-index: -1;
   }
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
 
 body {
   background-color: white;
@@ -79,24 +96,45 @@ svg {
 }
 
 .drives {
-  /* display: inline-block; */
   position: absolute;
   left: 12rem;
   font-size: 0.8rem;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .excellence,
 .creativity,
-.challenges {
+.challenges,
+.arrow {
   display: none;
   animation: 2s ease-in-out forwards fade-in;
+}
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  top: 11rem;
+  left: 5rem;
+  margin: -20px 0 0 -20px;
+  transform: rotate(45deg);
+  border-right: 2px #c8a899 solid;
+  border-bottom: 2px #c8a899 solid;
+}
+
+.arrow:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-right: 1px #c8a899 solid;
+  border-bottom: 1px #c8a899 solid;
+  animation-name: fade-in, arrow;
+  animation-duration: 2s, 2s;
+  animation-iteration-count: 1, infinite;
+  animation-timing-function: ease-in-out, linear;
 }

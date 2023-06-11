@@ -13,4 +13,7 @@ window.onload = function(){
       document.querySelector('.challenges').style.display = 'inline-block'
     },3000)
 
+    setTimeout(function(){
+      document.querySelector('.arrow').style.display = 'inline-block'
+    },4000)
 };
