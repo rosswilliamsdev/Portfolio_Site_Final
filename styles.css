@@ -142,4 +142,5 @@ svg {
 .projects {
   text-decoration: 1px underline;
   text-decoration-color: #c8a899;
+  margin-bottom: 0;
 }
