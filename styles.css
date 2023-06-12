@@ -138,3 +138,8 @@ svg {
   animation-iteration-count: 1, infinite;
   animation-timing-function: ease-in-out, linear;
 }
+
+.projects {
+  text-decoration: 1px underline;
+  text-decoration-color: #c8a899;
+}
