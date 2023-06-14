@@ -150,3 +150,11 @@ svg {
   text-decoration: 1px underline;
   text-decoration-color: #c8a899;
 }
+
+.about-me {
+  border: 2px solid #c8a899;
+}
+
+a {
+  color: #c8a899;
+}
