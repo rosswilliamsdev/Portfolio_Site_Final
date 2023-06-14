@@ -145,6 +145,10 @@ svg {
   margin-bottom: 0;
 }
 
+.card img {
+  object-fit: contain;
+}
+
 .about-me-header,
 .contact-header {
   text-decoration: 1px underline;
@@ -157,4 +161,15 @@ svg {
 
 a {
   color: #c8a899;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (min-width: 760px) {
+  .ross-jumbo-img {
+    width: 60%;
+  }
 }
