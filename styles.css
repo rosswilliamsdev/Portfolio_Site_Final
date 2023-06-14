@@ -144,3 +144,9 @@ svg {
   text-decoration-color: #c8a899;
   margin-bottom: 0;
 }
+
+.about-me-header,
+.contact-header {
+  text-decoration: 1px underline;
+  text-decoration-color: #c8a899;
+}
