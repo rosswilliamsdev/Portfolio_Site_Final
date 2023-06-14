@@ -172,4 +172,23 @@ a {
   .ross-jumbo-img {
     width: 60%;
   }
+  .drives {
+    left: 27rem;
+  }
+  .drives-header {
+    font-size: 2rem;
+  }
+  .excellence,
+  .creativity,
+  .challenges {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .arrow {
+    width: 32px;
+    height: 32px;
+    top: 19rem;
+    left: 8rem;
+  }
 }
