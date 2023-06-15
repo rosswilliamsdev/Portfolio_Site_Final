@@ -151,6 +151,12 @@ svg {
 
 .about-me-header,
 .contact-header {
+  font-size: 1.7rem;
+  text-decoration: 1px underline;
+  text-decoration-color: #c8a899;
+}
+
+.navbar-nav a {
   text-decoration: 1px underline;
   text-decoration-color: #c8a899;
 }
@@ -168,7 +174,15 @@ a {
   height: 200px;
 }
 
+.resume-btn {
+  width: 8rem;
+}
+
 @media screen and (min-width: 760px) {
+  .nav-div {
+    font-size: 1.5rem;
+  }
+
   .ross-jumbo-img {
     width: 60%;
   }
@@ -191,4 +205,36 @@ a {
     top: 19rem;
     left: 8rem;
   }
+}
+
+@media screen and (min-width: 1000px) {
+  .ross-jumbo-img {
+    width: 60%;
+  }
+  .drives {
+    left: 38rem;
+  }
+  .drives-header {
+    font-size: 2.5rem;
+  }
+  .excellence,
+  .creativity,
+  .challenges {
+    font-weight: lighter;
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+  .arrow {
+    width: 45px;
+    height: 45px;
+    top: 22rem;
+    left: 10rem;
+  }
+}
+
+/* LEAVE THIS AT BOTTOM */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
