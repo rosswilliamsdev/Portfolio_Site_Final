@@ -68,12 +68,6 @@ svg {
   right: 3rem;
 }
 
-.star {
-  position: relative;
-  bottom: 110px;
-  left: 55%;
-}
-
 .im-ross-williams {
   display: inline-block;
   font-size: 0.5rem;
@@ -161,7 +155,9 @@ svg {
   text-decoration-color: #c8a899;
 }
 
-.about-me {
+.about-me,
+.languages,
+.contact-me {
   border: 2px solid #c8a899;
 }
 
@@ -176,6 +172,7 @@ a {
 
 .resume-btn {
   width: 8rem;
+  border-color: #c8a899;
 }
 
 /* The Modal (background) */
@@ -220,6 +217,11 @@ a {
   cursor: pointer;
 }
 
+.code-icon {
+  width: 4rem;
+  height: auto;
+}
+
 /* //////////////////////// */
 /* MEDIA QUERIES----------------------------------------------------------------- */
 /* //////////////////////// */
@@ -257,6 +259,24 @@ a {
     top: 19rem;
     left: 8rem;
   }
+  /* .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'about languages'
+    'about contact'
+    ;
+  }
+  .about-me {
+    grid-area: about;
+  }
+  .languages {
+    grid-area: languages;
+  }
+  .contact-me {
+    grid-area: contact;
+  } */
 }
 
 @media screen and (min-width: 1000px) {
