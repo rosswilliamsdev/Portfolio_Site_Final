@@ -50,6 +50,11 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.navbar-nav a {
+  text-decoration: 1px underline;
+  text-decoration-color: #c8a899;
+}
+
 svg {
   width: 3rem;
   height: auto;
@@ -150,11 +155,6 @@ svg {
   text-decoration-color: #c8a899;
 }
 
-.navbar-nav a {
-  text-decoration: 1px underline;
-  text-decoration-color: #c8a899;
-}
-
 .about-me,
 .languages,
 .contact-me {
@@ -170,9 +170,14 @@ a {
   height: 200px;
 }
 
-.resume-btn {
+.resume-btn,
+.contact-btn {
   width: 8rem;
   border-color: #c8a899;
+}
+
+.about-languages {
+  flex: 1;
 }
 
 /* The Modal (background) */
@@ -195,7 +200,7 @@ a {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 1000px;
+  max-width: 1024px;
   height: 100%;
 }
 
@@ -216,9 +221,22 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+/* /////////////////////// */
+/* SVG------------------------ */
+/* /////////////////////// */
 
 .code-icon {
-  width: 4rem;
+  width: 5rem;
+  height: auto;
+}
+
+.html-icon {
+  width: 3rem;
+  height: auto;
+}
+
+.js-icon {
+  width: 3.8rem;
   height: auto;
 }
 
@@ -229,6 +247,15 @@ a {
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .resume-btn {
+    display: none;
+  }
+  .languages-col {
+    padding-top: 1.5rem;
   }
 }
 
@@ -259,24 +286,10 @@ a {
     top: 19rem;
     left: 8rem;
   }
-  /* .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    'about languages'
-    'about contact'
-    ;
+  .languages-text {
+    position: relative;
+    bottom: 5rem;
   }
-  .about-me {
-    grid-area: about;
-  }
-  .languages {
-    grid-area: languages;
-  }
-  .contact-me {
-    grid-area: contact;
-  } */
 }
 
 @media screen and (min-width: 1000px) {
@@ -302,6 +315,9 @@ a {
     top: 22rem;
     left: 10rem;
   }
+  .languages-text {
+    position: static;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -320,6 +336,31 @@ a {
     font-weight: lighter;
     font-size: 2.1rem;
     line-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .ross-jumbo-img {
+    width: 50%;
+  }
+  .drives {
+    left: 90rem;
+  }
+  .drives-header {
+    font-size: 5rem;
+  }
+  .excellence,
+  .creativity,
+  .challenges {
+    font-weight: lighter;
+    font-size: 3.5rem;
+    line-height: 9rem;
+  }
+  .arrow {
+    width: 60px;
+    height: 60px;
+    top: 40rem;
+    left: 18rem;
   }
 }
 
