@@ -56,9 +56,8 @@ sendButton.addEventListener('click', () => {
 
     // If any are blank show an alert, otherwise send the message
     if (formName.value === '' || formEmail.value === '' || formSubject === '' || formTextbox === '') {
-      console.log('clicked')
-        alert("Please complete all form fields to send a message");
+        alert("Please complete all form fields to send a message.");
     } else {
-        alert("Message sent");
+        alert("Message sent. Thanks for reaching out!");
     }
 });

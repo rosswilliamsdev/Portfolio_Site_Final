@@ -49,20 +49,22 @@ body {
   color: black;
   font-family: "Playfair Display", serif;
 }
+/* ----------------------------- */
+/* NAVBAR-------------------------------------- */
+/* ----------------------------- */
 
 .navbar-nav a {
   text-decoration: 1px underline;
   text-decoration-color: #c8a899;
 }
 
-svg {
-  width: 3rem;
-  height: auto;
-}
-
 .ross {
   color: #c8a899;
 }
+
+/* ----------------------------- */
+/* JUMBOTRON-------------------------------------- */
+/* ----------------------------- */
 
 .ross-jumbo-img {
   display: inline-block;
@@ -71,21 +73,6 @@ svg {
   border-radius: 5px;
   position: relative;
   right: 3rem;
-}
-
-.im-ross-williams {
-  display: inline-block;
-  font-size: 0.5rem;
-}
-
-.welcome-text {
-  display: inline-block;
-}
-
-.welcome-top {
-  display: inline-block;
-  position: relative;
-  bottom: 2rem;
 }
 
 .drives-header {
@@ -138,6 +125,10 @@ svg {
   animation-timing-function: ease-in-out, linear;
 }
 
+/* ----------------------------- */
+/* PROJECT CARDS-------------------------------------- */
+/* ----------------------------- */
+
 .projects {
   text-decoration: 1px underline;
   text-decoration-color: #c8a899;
@@ -147,6 +138,10 @@ svg {
 .card img {
   object-fit: contain;
 }
+
+/* ----------------------------- */
+/* LIL HINTS OF GOLD ON STUFF & MISC STYLINS----------- */
+/* ----------------------------- */
 
 .about-me-header,
 .contact-header {
@@ -179,6 +174,10 @@ a {
 .about-languages {
   flex: 1;
 }
+
+/* /////////////////////////////// */
+/* RESUME MODAL------------------------------- */
+/* /////////////////////////////// */
 
 /* The Modal (background) */
 .modal {
@@ -221,9 +220,15 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-/* /////////////////////// */
+
+/* //////////////////////////////////////// */
 /* SVG------------------------ */
-/* /////////////////////// */
+/* //////////////////////////////////////// */
+
+svg {
+  width: 3rem;
+  height: auto;
+}
 
 .code-icon {
   width: 5rem;
