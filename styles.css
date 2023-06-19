@@ -169,6 +169,9 @@ a {
 .contact-btn {
   width: 8rem;
   border-color: #c8a899;
+  font-weight: 500;
+  border-width: 2px;
+  color: #3b2e48;
 }
 
 .about-languages {
