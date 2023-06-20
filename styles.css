@@ -258,7 +258,7 @@ svg {
   }
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 375px) {
   .drives {
     left: 16rem;
   }
