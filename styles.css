@@ -271,6 +271,9 @@ svg {
   .languages-col {
     padding-top: 1.5rem;
   }
+   .col {
+    flex:none;
+  }
 }
 
 @media screen and (min-width: 760px) {
