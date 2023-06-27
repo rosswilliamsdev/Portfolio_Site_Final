@@ -54,7 +54,6 @@ sendButton.addEventListener("click", () => {
   formSubject.required = true;
   formTextbox.required = true;
 
-
   let ebody = `
   <b>Name: </b>${formName.value}
   <br>
@@ -64,7 +63,7 @@ sendButton.addEventListener("click", () => {
   <br>
   <b>Text: </b>${formTextbox.value}
   <br>
-  `
+  `;
 
   // If any are blank show an alert, otherwise send the message
   if (
@@ -80,16 +79,13 @@ sendButton.addEventListener("click", () => {
     Email.send({
       SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
       To: "rossw.dev@gmail.com",
-      From: "rossw.dev@gmail.com",
-      Subject: "This is the subject",
+      From: formEmail.value,
+      Subject: `${formSubject.value}`,
       Body: ebody,
     }).then((message) => alert(message));
-
   }
 });
 
 ///////////////////////////////
 // SENDING EMAILS FROM MESSAGE FORM
 ///////////////////////////////
-
-
