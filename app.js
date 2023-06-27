@@ -77,7 +77,7 @@ sendButton.addEventListener("click", () => {
     alert("Message sent. Thanks for reaching out!");
 
     Email.send({
-      SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+      SecureToken: "9e99762e-0985-4091-b799-33f02a8f1dd6",
       To: "rossw.dev@gmail.com",
       From: formEmail.value,
       Subject: `${formSubject.value}`,
