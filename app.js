@@ -79,10 +79,10 @@ sendButton.addEventListener("click", () => {
     Email.send({
       SecureToken: "9e99762e-0985-4091-b799-33f02a8f1dd6",
       To: "rossw.dev@gmail.com",
-      From: formEmail.value,
-      Subject: `${formSubject.value}`,
+      From: "rossw.dev@gmail.com",
+      Subject: "Web Dev Contact!!",
       Body: ebody,
-    }).then((message) => alert(message));
+    });
   }
 });
 
