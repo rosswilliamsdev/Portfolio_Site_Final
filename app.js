@@ -85,7 +85,3 @@ sendButton.addEventListener("click", () => {
     });
   }
 });
-
-///////////////////////////////
-// SENDING EMAILS FROM MESSAGE FORM
-///////////////////////////////
